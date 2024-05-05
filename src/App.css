@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GodOfWar';
+    font-style: normal;
+    font-display: swap;
+    src: url(../public/fonts/GODOFWAR.TTF)
+}
+body {
+    background-color: #1a1b1f;
+}
