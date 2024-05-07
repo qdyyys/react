@@ -9,7 +9,7 @@ import 'swiper/css/effect-cards';
 
 
 interface swiperProps {
-  effect: string,
+  effect?: string,
   images: string[],
 }
 const SwiperComp = (props: swiperProps) => {

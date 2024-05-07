@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      height: {
+        '1400': '1400px'
+      },
       colors: {
         grayCustom: {
           gray: '#262931',
