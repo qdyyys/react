@@ -5,5 +5,9 @@
     src: url(../public/fonts/GODOFWAR.TTF)
 }
 body {
-    background-color: #1a1b1f;
+    background-color: #a3a3a3;
+    background-image: url(../public/images/noise.png);
+}
+html {
+    scroll-behavior: smooth;
 }

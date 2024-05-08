@@ -14,11 +14,6 @@ const Content = ()=>{
             
             <SwiperComp effect='cube' images={slideImages}/>
 
-            <button
-
-             className='text-white font-bold bg-lightRed-red py-2 px-6 duration-700'>2
-            </button>
-
             <Product product={products[0]}/>
             <Product product={products[1]}/>
         </div>
