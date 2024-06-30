@@ -5,7 +5,7 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-} from "@/components/ui/card";
+} from "./ui/card";
 import { ResponsiveLine } from "@nivo/line";
 import { getCurrencies, getCurrencyChart } from "../coinGecko";
 
@@ -16,7 +16,6 @@ interface CurrenciesChange {
 
 const Tracker = () => {
   const [data, setData] = useState<[string, any][]>([]);
-  const [bitcoinChange, setBitcoinChange] = useState<CurrenciesChange[]>([]);
   const [ethereumChange, setEthereumChange] = useState<CurrenciesChange[]>([]);
   const [liteCoinChange, setLiteCoinCHange] = useState<CurrenciesChange[]>([]);
   const [bitCoinCash, setBitCoinCash] = useState<CurrenciesChange[]>([]);

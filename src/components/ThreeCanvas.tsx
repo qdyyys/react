@@ -1,5 +1,7 @@
 import { Environment, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+
+// @ts-ignore
 import Eth from "../../public/Eth";
 
 const ThreeCanvas = () => {
